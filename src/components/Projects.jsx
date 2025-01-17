@@ -5,6 +5,22 @@ import { SiMongodb, SiExpress, SiTailwindcss, SiTypescript, SiJavascript, SiHtml
 
 const projects = [
   {
+    title: 'Portfolio',
+    description: 'An interactive and visually engaging portfolio showcasing personal projects, skills, and professional journey.',
+    longDescription: 'A personal portfolio showcasing projects, experience, and skills. It features a modern, user-friendly design and responsive exerience with sections highlighting professional journey, achievements, and contact information.',
+    github: 'https://github.com/SaiRajfiwo/portfolio',
+    live: 'https://sairajshrimanwarportfolio.netlify.app/',
+    tech: ['react', 'javascript', 'tailwind', 'html'],
+    category: 'frontend',
+    features: ['Dynamic Content', 'Interactive Animations', 'Responsive Design', 'Social Links'],
+    highlights: ['Professional Overview', 'User-Friendly Navigation', 'Interactive Visuals'],
+    challenges: ['Cross-browser Compatibility', 'Real-time Updates', 'Performance Optimization'],
+    learnings: ['Advanced React Patterns', 'Responsive Design Implementation', 'Performance Tuning'],
+    timeline: '3 months',
+    role: 'Full Stack Developer',
+    impact: ['Device Flexibility', 'Increased Reach and Accessibility','Faster load times']
+  },
+  {
     title: 'E-Mart',
     description: 'A modern e-commerce platform with a sleek UI, product catalog, shopping cart, and secure checkout process.',
     longDescription: 'E-Mart is a comprehensive e-commerce solution featuring product categorization, user authentication, shopping cart functionality, and a streamlined checkout process. Built with React for optimal performance and user experience.',
@@ -15,26 +31,10 @@ const projects = [
     features: ['Responsive Design', 'Shopping Cart', 'Product Search', 'User Authentication'],
     highlights: ['Modern UI/UX', 'Performance Optimized', 'Mobile First Design'],
     challenges: ['Complex State Management', 'Real-time Updates', 'Performance Optimization'],
-    learnings: ['Advanced React Patterns', 'State Management', 'Performance Tuning'],
-    timeline: '3 months',
-    role: 'Full Stack Developer',
-    impact: ['Improved user engagement', 'Faster load times', 'Better conversion rates']
-  },
-  {
-    title: 'Lets Travel!',
-    description: 'An innovative travel platform designed for solo travelers to discover destinations, share experiences, and connect.',
-    longDescription: 'Lets Travel! is a travel community platform that helps solo travelers connect, share experiences, and plan their adventures. Features include destination discovery, experience sharing, and travel planning tools.',
-    github: 'https://github.com/uvkendre/GhumteHaii',
-    live: 'https://uvkendre.github.io/GhumteHaii/',
-    tech: ['react', 'javascript', 'tailwind', 'html'],
-    category: 'frontend',
-    features: ['Interactive Maps', 'Travel Guides', 'User Reviews', 'Photo Gallery'],
-    highlights: ['Community Driven', 'Real-time Updates', 'Interactive UI'],
-    challenges: ['Data Organization', 'User Experience', 'Content Management'],
     learnings: ['UX Design Principles', 'Content Strategy', 'Community Building'],
     timeline: '3 months',
     role: 'Frontend Developer',
-    impact: ['Enhanced user engagement', 'Improved content discovery', 'Better user retention']
+    impact: ['Improved user engagement', 'Faster load times', 'Better conversion rates']
   },
   {
     title: 'PlayCode',
