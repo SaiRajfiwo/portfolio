@@ -10,6 +10,13 @@ const Experience = () => {
       duration: "Present",
       description: "Studying Computer Science fundamentals and advanced programming concepts.",
       type: "education"
+    },
+    {
+      title: "Web Developer - Intern",
+      company: "WebHub Technology, Pune",
+      duration: "March 2025 - Present",
+      description: "Developing and maintaining modern web applications using React.js, TailwindCSS, Node.js, Express.js, MongoDB and other cutting-edge technologies.",
+      type: "work"
     }
   ];
 
